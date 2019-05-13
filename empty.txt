@@ -1,0 +1,234 @@
+
+<!-- 
+<div class="service 2d">
+                        
+    <h3>2D Services</h3>
+   
+    <ul>    
+        <li>
+           
+<div class="container" >
+<a class="image" href="#modal-window-one"><img src="images/image1.png" alt=""></a>
+<div class="overlay"> 
+<div class="text">
+<div class="learn-more">
+<button class="click-to-open" data-modal="modal-window-one">click to enlarge</button>
+</div>
+</div>
+</div>
+</div>
+            
+            <h4>Building planning layouts. </h4>
+       
+            <p>CAD layouts for domestic and commercial buildings.</p>
+         </li>
+          <li>
+             <div class="container" >
+<a class="image" href="#modal-window-two"><img src="images/image2.png" alt=""></a>
+<div class="overlay"> 
+<div class="text">
+<div class="learn-more">
+<button class="click-to-open" data-modal="modal-window-two">click to enlarge</button>
+</div>
+</div>
+</div>
+</div>
+            
+            <h4>Engineering Assembly </h4>
+         
+            <p>Engineering assembly and detail drawings for design and production.</p>
+         </li>
+          <li>
+            <div class="container" >
+<a class="image" href="#modal-window-three"><img src="images/image3.bmp" alt=""></a>
+<div class="overlay"> 
+<div class="text">
+<div class="learn-more">
+<button class="click-to-open" data-modal="modal-window-three">click to enlarge</button>
+</div>
+</div>
+</div>
+</div>
+            <h4>Legacy Conversions </h4>
+          
+            <p>All AutoCAD version formats (dwg, dxf, dwt etc) to any other – from R12 to R2018.</p>
+         </li>
+          <li>
+           <div class="container" >
+<a class="image" href="#modal-window-four"><img src="images/image4.bmp" alt=""></a>
+<div class="overlay"> 
+<div class="text">
+<div class="learn-more">
+<button class="click-to-open" data-modal="modal-window-four">click to enlarge</button>
+</div>
+</div>
+</div>
+</div>
+            <h4>Consultancy Service </h4>
+          
+            <p>Engineering manufacturing consultancy service to produce components and designs.</p>
+         </li>
+
+    </ul>
+
+</div>
+<div class="service 3d">
+
+    <h3>3D Services</h3>
+    
+    <ul>    
+        <li>
+            <div class="container" >
+<a class="image" href="#modal-window-five"><img src="images/image5.png" alt=""></a>
+<div class="overlay"> 
+<div class="text">
+<div class="learn-more">
+<button class="click-to-open" data-modal="modal-window-five">click to enlarge</button>
+</div>
+</div>
+</div>
+</div>
+            <h4>3D Modelling </h4>
+            
+            <p>Full Solid Works modelling and design service. </p>
+         </li>
+          <li>
+             <div class="container" >
+<a class="image" href="#modal-window-six"><img src="images/image6.jpg" alt=""></a>
+<div class="overlay"> 
+<div class="text">
+<div class="learn-more">
+<button class="click-to-open" data-modal="modal-window-six">click to enlarge</button>
+</div>
+</div>
+</div>
+</div>
+            <h4>Legacy Conversion Service </h4>
+            
+            <p>Most 3D formats converted or translated.</p>
+         </li>
+          <li>
+             <div class="container" >
+<a class="image" href="#modal-window-seven"><img src="images/image7.JPG" alt=""></a>
+<div class="overlay"> 
+<div class="text">
+<div class="learn-more">
+<button class="click-to-open" data-modal="modal-window-seven">click to enlarge</button>
+</div>
+</div>
+</div>
+</div>
+            <h4>Prototype modelling </h4>
+          
+            <p>Conversion of models to rapid prototyping formats and sourcing of prototype models and components.</p>
+         </li>
+          <li>
+            <div class="container" >
+<a class="image" href="#modal-window-eight"><img src="images/image8.jpg" alt=""></a>
+<div class="overlay"> 
+<div class="text">
+<div class="learn-more">
+<button class="click-to-open" data-modal="modal-window-eight">click to enlarge</button>
+</div>
+</div>
+</div>
+</div>
+            <h4>Building planning layouts. </h4>
+           
+            <p>Production of photo-realistic renderings for visualisation or instruction manuals.</p>
+         </li>
+
+    </ul>
+
+</div>
+
+</section>
+
+<div id="modal-window-one" class=" modal-window modal">
+
+<!-- the hermitage Modal content -->
+<!-- <div class="modal-content">
+<span class="close">&times;</span>
+
+<img src="images/image1.png" alt="">     
+
+</div>
+
+</div>
+<div id="modal-window-two" class=" modal-window modal">
+
+<!-- the hermitage Modal content -->
+<div class="modal-content">
+<span class="close">&times;</span>
+
+<img src="images/image2.png" alt="">     
+
+</div>
+
+</div>
+<div id="modal-window-three" class=" modal-window modal">
+
+<!-- the hermitage Modal content -->
+<div class="modal-content">
+<span class="close">&times;</span>
+
+<img src="images/image3.bmp" alt="">     
+
+</div>
+
+</div>
+<div id="modal-window-four" class=" modal-window modal">
+
+<!-- the hermitage Modal content -->
+<div class="modal-content">
+<span class="close">&times;</span>
+
+<img src="images/image4.bmp" alt="">     
+
+</div>
+
+</div>
+<div id="modal-window-five" class=" modal-window modal">
+
+<!-- the hermitage Modal content -->
+<div class="modal-content">
+<span class="close">&times;</span>
+
+<img src="images/image5.png" alt="">     
+
+</div>
+
+</div>
+<div id="modal-window-six" class=" modal-window modal">
+
+<!-- the hermitage Modal content -->
+<div class="modal-content">
+<span class="close">&times;</span>
+
+<img src="images/image6.jpg" alt="">     
+
+</div>
+
+</div>
+<div id="modal-window-seven" class=" modal-window modal">
+
+<!-- the hermitage Modal content -->
+<div class="modal-content">
+<span class="close">&times;</span>
+
+<img src="images/image7.JPG" alt="">     
+
+</div>
+
+</div>
+<div id="modal-window-eight" class=" modal-window modal">
+
+<!-- the hermitage Modal content -->
+<div class="modal-content">
+<span class="close">&times;</span>
+
+<img src="images/image8.png" alt="">     
+
+</div>
+
+</div> --> -->
