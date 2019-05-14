@@ -64,12 +64,24 @@ nav  .active a {
 	border-bottom: 1px solid white;
 }
 
+
+
 .menu li:hover > ul,
 ul li ul:hover {
   visibility: visible;
   opacity: 1;
 	display: block;
 	background: var(--darkgrey);
+}
+
+.menu li:hover a {
+	border-bottom: none;
+}
+.menu li:hover ul li a{
+	border-bottom: 1px solid white;
+}
+nav .inactive a {
+	border-bottom: none !important;
 }
 
 .menu li ul li {
@@ -328,8 +340,8 @@ background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../im
 .banner2 {
 	height: 70vh;
 	margin-top: 100px;
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(214, 94, 0, 0.45)), to(rgba(214, 94, 0, 0.45))), url(../images/background2.jpg) no-repeat center center fixed;
-background: linear-gradient(rgba(214, 94, 0, 0.8), rgba(214, 94, 0, 0.8)), url(../images/background2.jpg) no-repeat center center fixed;
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(214, 94, 0, 0.45)), to(rgba(214, 94, 0, 0.45))), url(../images/background2.JPG) no-repeat center center fixed;
+background: linear-gradient(rgba(214, 94, 0, 0.8), rgba(214, 94, 0, 0.8)), url(../images/background2.JPG) no-repeat center center fixed;
   background-size: cover;
 
   width: 100%;
