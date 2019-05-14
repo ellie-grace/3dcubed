@@ -15,6 +15,16 @@ html, body {
 
 }
 
+h4 {
+	font-weight: 500;
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: 500;
+
+}
 nav li > a:before {
   content: "";
   position: absolute;
@@ -314,6 +324,9 @@ background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../im
 	padding-bottom: 100px;
 	background: white;
 }
+.about h3 {
+	margin-top: 80px;
+}
 .text {
 	background: var(--lightgrey);
 	flex-basis: 60%;
@@ -350,10 +363,15 @@ background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../im
 	margin-right: -200px;
 }
 .small-image img {
-	max-width: 300px;
-	padding: 40px;
+	max-width: 400px;
+	padding: 0;
 	background: #595958;
 	z-index: 1000;
+}
+
+.logo-image img {
+	padding: 40px;
+	max-width: 320px;
 }
 
 .about h5 {
@@ -371,7 +389,9 @@ background: linear-gradient(rgba(214, 94, 0, 0.8), rgba(214, 94, 0, 0.8)), url(.
   width: 100%;
 }
 
-
+.banner2 h4 {
+	color: #fff;
+}
 
 footer {
 	background: var(--darkgrey);
@@ -499,9 +519,7 @@ align-items: center;
 flex-direction: column;
 
 }
-.service-text p {
 
-}
 .service-image {
 	flex-basis: 50%;
 	width: 50%;
@@ -516,7 +534,7 @@ flex-direction: column;
 	background: white;
 	border-bottom: 1px solid rgba(172,172,171, 0.5);
 	margin: 0 auto 0 auto;
-	padding-top: 10vh;
+	
 	width: 100%;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -531,14 +549,12 @@ flex-direction: column;
 
 }
 
-.about-page h2 {
+.about-page h3 {
 	max-width: 800px;
-			font-size: 42px;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 500;
+			
 	text-align: left;
 	align-self: center;
-	margin: auto;
+	margin: auto auto 20px auto;
 }
 .about-page p {
 	  text-align: left;
@@ -552,15 +568,14 @@ flex-direction: column;
 .about-me {
 	max-width: 1366px;
 	width: 70%;
-	margin-bottom: 20vh;
+	margin: 20vh;
 	padding-bottom: 50px;
 }
 
 .about-company {
 	max-width: 1366px;
 	width: 70%;
-	padding-bottom: 50px;
-	margin: auto;
+	margin: 20vh auto 10vh;
 
 }
 
@@ -575,7 +590,7 @@ flex-direction: column;
 
 }
 .contact-section {
-	margin-top: 60px;
+	margin-top: 30px;
 	max-width: 1366px;
 	display: flex;
 	
@@ -622,13 +637,12 @@ form p {
 
   
   [type="submit"] {
-	font-family: 'Lato', Arial, Helvetica, sans-serif;
 	width: 40%;
-	background: white;
+	background: var(--accent);
 	border:0;
 	cursor:pointer;
-	color:black;
-	font-size:24px;
+	color:#fff;
+	font-size:20px;
 	padding-top:10px;
 	padding-bottom:10px;
 	-webkit-transition: all 0.3s;
@@ -657,4 +671,8 @@ form p {
 }
 .numbers {
 	margin-top: 30px;
+}
+
+.address h4 {
+	margin-bottom: 5px;
 }
