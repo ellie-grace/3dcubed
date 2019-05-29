@@ -15,12 +15,22 @@ html, body {
 
 }
 
+.underline {
+	width: 50px;
+	height: 3px;
+	background: var(--accent);
+	align-self: center;
+	margin-bottom: 30px;
+	
+}
+
 h4 {
 	font-weight: 500;
 	font-size: 24px;
 }
 
 h3 {
+	margin-bottom: 5px;
 	font-size: 30px;
 	font-weight: 500;
 
@@ -502,7 +512,7 @@ background: white;
 	align-items: center;
 }
 .services h3 {
-	margin: 100px auto;
+	margin: 100px auto 0 auto;
 }
 
 .service-one {
@@ -647,7 +657,6 @@ form p {
 	padding-bottom:10px;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
-	margin-top:-4px;
 	font-weight:700;
 	max-width: 200px;
   
