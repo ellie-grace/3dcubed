@@ -38,6 +38,8 @@ document.getElementById('date').innerHTML = date;
 
 
 
+
+
 // $(document).ready(function(){
 //   $('.slide').slick({
 //     setting-name: setting-value

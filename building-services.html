@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title> 3DCubed Ltd | Design and Drafting</title>
-        <meta name="description" content="">
+        <meta name="description" content="We can provide a full range of 2D &amp; 3D design &amp; drafting services, based in Derbyshire.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
@@ -19,7 +19,7 @@
 
 
    
-
+        <link rel="stylesheet" href="styles/services.css">
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
@@ -42,67 +42,102 @@
 						<li><a href="contact.html">CONTACT</a></li>
 					</ul>
         </nav>
+
         <section class="services-section">
-                <div class="services">
-                  <h3>Building Planning Layouts</h3>
-                  <div class="underline"></div>
-                  <div class="service-one">
-                    <div class="service-text">
-                      <h4>Placeholder Text</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper, magna eget egestas dignissim, nisl neque feugiat ex, et euismod augue ipsum in erat. Morbi nec dictum nisi.</p>
-                    </div>
-                    <div class="service-image">
-                      <img src="images/image1.png" alt="">
-                    </div>
+            <div class="services">
+              <h3>Building Planning</h3>
+              <div class="underline"></div>
+
+              <div class="service-main">
+
+                  <div class="service-card image" href="#modal-window-one">
+                    <h4>Building Planning Drawings</h4>
+                    <img class="click-to-open" data-modal="modal-window-one" src="images/Extension_2.PNG" alt="A submitted planning permission application drawing.">
+                    <p>If you’re thinking of extending your house, have an idea about what you want but don’t really want to go to the time and expense of engaging an architect.  We can provide advice and generate drawings for almost any size and type of extension, as well as guidance on the planning process.</p>
                   </div>
-               
-    
-    
-                    <div class="service-one">
-                      
-                      <div class="service-image">
-                        <img src="images/image1.png" alt="">
-                      </div><div class="service-text">
-                          <h4>Placeholder text</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper, magna eget egestas dignissim, nisl neque feugiat ex, et euismod augue ipsum in erat. Morbi nec dictum nisi.</p>
-                      </div>
-                    </div>
-            
-    
-               
-                      <div class="service-one">
-                        <div class="service-text">
-                            <h4>Placeholder Text</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper, magna eget egestas dignissim, nisl neque feugiat ex, et euismod augue ipsum in erat. Morbi nec dictum nisi.</p>
-                        </div>
-                        <div class="service-image">
-                          <img src="images/image1.png" alt="">
-                        </div>
-                      </div>
+
+                  <div class="service-card image" href="#modal-window-two">
+                      <h4>Building Planning Advice</h4>
+                      <img class="click-to-open" data-modal="modal-window-two" src="images/image1.png" alt="A black and white CAD drawing of a house extension.">
+                      <p>You may need full planning permission or be allowed to proceed under permitted development, either way you will probably need drawings for building control.  We won’t do the application for you, but we can guide you through the process.  We can also arrange for structural engineering approval from a leading practice if required.</p>
+                  </div>
+
+                  <div class="service-card image" href="#modal-window-three">
+                      <h4>Other Services</h4> 
+                      <img class="click-to-open" data-modal="modal-window-three" src="images/house.jpg" alt="A 3D printed model of a house extension.">
+                      <p>Have you had ideas and can’t really visualise what it will look like from a technical drawing?  Don’t worry, we can provide a 3D CAD visualisation or even a scale model 3D printed on our in house rapid prototype machine.  If you are intending to spend tens of thousands of pounds on an extension, knowing what it will really look like in relation to the rest of the property.</p>
+                  </div>
+                  <div class="service-card"></div>
+  
+
+
+              </div>
+         
+                  </div>
+        </section>
+
+        <div id="modal-window-one" class=" modal-window modal">
+
+          <!-- the hermitage Modal content -->
+          <div class="modal-content">
+          <span class="close">&times;</span>
           
-    
-               
-                        <div class="service-one">
-                          
-                          <div class="service-image">
-                            <img src="images/image1.png" alt="">
-                          </div><div class="service-text">
-                              <h4>Placeholder Text</h4>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper, magna eget egestas dignissim, nisl neque feugiat ex, et euismod augue ipsum in erat. Morbi nec dictum nisi.</p>
-                          </div>
-                        </div>
-                      
-                      </div>
-            </section>
+          <img src="images/Extension_2.PNG" alt="A submitted planning permission application drawing.">     
           
-        <footer>
-                <ul>
-                    <li>3D Cubed Ltd &copy; <span id="date"><noscript>2018</noscript></span> </li>
-                    <li><a href="">privacy policy</a></li>
-                    <li>this website was <a href="">built by ellie</a></li>
-                </ul>
+          </div>
+          
+          </div>
+
+
+          <div id="modal-window-two" class=" modal-window modal">
+          
+          <!-- the hermitage Modal content -->
+          <div class="modal-content">
+          <span class="close">&times;</span>
+          
+          <img src="images/image1.png" alt="A black and white CAD drawing of a house extension.">     
+          
+          </div>
+          
+          </div>
+          <div id="modal-window-three" class=" modal-window modal">
+          
+          <!-- the hermitage Modal content -->
+          <div class="modal-content">
+          <span class="close">&times;</span>
+          
+          <img src="images/house.jpg" alt="A 3D printed model of a house extension.">     
+          
+          </div>
+          
+          </div>
+      
+      
+
+
+
+
+
+
+
+       
+          
+            <footer>
+              <ul>
+              <li>3D Cubed Ltd. &copy; <span id="date"><noscript>2019</noscript></span> <br>
+                Registered in England <br>
+                N&#111;: 3970972 
+      
+              </li>
+              <li></li>
+              <li><a href=""><i class="fab fa-facebook-square"></i> Follow us on Facebook</a> <br>
+                <a href="">Website created by Ellie</a><br>
+                <a class="footer-links">Contact Us</a> / <a class="footer-links">Cookie Policy</a></li>
+              </ul>
             </footer>
         
             <script src="scripts/landing.js"></script>
+            <script src="scripts/service.js"> </script>
+
         </body>
     </html>

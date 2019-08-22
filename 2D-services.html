@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title> 3DCubed Ltd | Design and Drafting</title>
-        <meta name="description" content="">
+        <meta name="description" content="We can provide a full range of 2D &amp; 3D design &amp; drafting services, based in Derbyshire.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -21,6 +21,7 @@
 
    
 
+        <link rel="stylesheet" href="styles/services.css">
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
@@ -47,64 +48,102 @@
                 <div class="services">
                   <h3>2D Schematics and CAD Drawings</h3>
                   <div class="underline"></div>
-                  <div class="service-one">
-                    <div class="service-text">
-                      <h4>Building Planning Layouts</h4>
-                      <p>CAD layouts for domestic and commercial buildings.</p>
-                    </div>
-                    <div class="service-image">
-                      <img src="images/image2.png" alt="">
-                    </div>
-                  </div>
-               
-    
-    
-                    <div class="service-one">
-                      
-                      <div class="service-image">
-                        <img src="images/image2.png" alt="">
-                      </div><div class="service-text">
+
+                  <div class="service-main">
+
+                      <div class="service-card image" href="#modal-window-one">
+                        <h4>Building Planning Layouts</h4>
+                        <img class="click-to-open" data-modal="modal-window-one" src="images/image4.bmp" alt="A black and white CAD of a building">
+                        <p>CAD layouts for domestic and commercial buildings.</p>
+                      </div>
+
+                      <div class="service-card image" href="#modal-window-two">
                           <h4>Engineering Assembly</h4>
+                          <img class="click-to-open" data-modal="modal-window-two" src="images/image2.png" alt="Schematic of a nozzle design">
                           <p>Engineering assembly and detail drawings for design and production.</p>
                       </div>
-                    </div>
-            
-    
-               
-                      <div class="service-one">
-                        <div class="service-text">
-                            <h4>Legacy Conversions</h4>
-                            <p>All AutoCAD version formats (dwg, dxf, dwt etc) to any other – from R12 to R2018.</p>
-                        </div>
-                        <div class="service-image">
-                          <img src="images/image3.bmp" alt="">
-                        </div>
+
+                      <div class="service-card image" href="#modal-window-three">
+                          <h4>Legacy Conversions</h4> 
+                          <img class="click-to-open" data-modal="modal-window-three" src="images/translation.png" alt="An example translation from one format to another">
+                          <p>All AutoCAD version formats (dwg, dxf, dwt etc) to any other – from R12 to R2018.</p>
                       </div>
-          
-    
-               
-                        <div class="service-one">
-                          
-                          <div class="service-image">
-                            <img src="images/image4.bmp" alt="">
-                          </div><div class="service-text">
-                              <h4>Consultancy Service</h4>
-                              <p>Engineering manufacturing consultancy service to produce components and designs.</p>
-                          </div>
-                        </div>
-                      
+
+                      <div class="service-card image" href="#modal-window-four">
+                          <h4>Consultancy Service</h4>
+                          <img class="click-to-open" data-modal="modal-window-four" src="images/background2.JPG" alt="A pile of building plans rolled up.">
+                          <p>Engineering manufacturing consultancy service to produce components and designs.</p>
+                      </div>
+
+
+                  </div>
+             
                       </div>
             </section>
+
+            <div id="modal-window-one" class=" modal-window modal">
+
+              <!-- the hermitage Modal content -->
+              <div class="modal-content">
+              <span class="close">&times;</span>
+              
+              <img src="images/image4.bmp" alt="A black and white CAD of a building">     
+              
+              </div>
+              
+              </div>
+
+
+              <div id="modal-window-two" class=" modal-window modal">
+              
+              <!-- the hermitage Modal content -->
+              <div class="modal-content">
+              <span class="close">&times;</span>
+              
+              <img src="images/image2.png" alt="Schematic of a nozzle design">     
+              
+              </div>
+              
+              </div>
+              <div id="modal-window-three" class=" modal-window modal">
+              
+              <!-- the hermitage Modal content -->
+              <div class="modal-content">
+              <span class="close">&times;</span>
+              
+              <img src="images/translation.png" alt="An example translation from one format to another">     
+              
+              </div>
+              
+              </div>
+              <div id="modal-window-four" class=" modal-window modal">
+              
+              <!-- the hermitage Modal content -->
+              <div class="modal-content">
+              <span class="close">&times;</span>
+              
+              <img src="images/background2.JPG" alt="A pile of building plans rolled up.">     
+              
+              </div>
+              </div>
           
 
-        <footer>
-                <ul>
-                    <li>3D Cubed Ltd &copy; <span id="date"><noscript>2018</noscript></span> </li>
-                    <li><a href="">privacy policy</a></li>
-                    <li>this website was <a href="">built by ellie</a></li>
-                </ul>
+            <footer>
+              <ul>
+              <li>3D Cubed Ltd. &copy; <span id="date"><noscript>2019</noscript></span> <br>
+                Registered in England <br>
+                N&#111;: 3970972 
+      
+              </li>
+              <li></li>
+              <li><a href=""><i class="fab fa-facebook-square"></i> Follow us on Facebook</a> <br>
+                <a href="">Website created by Ellie</a><br>
+                <a class="footer-links">Contact Us</a> / <a class="footer-links">Cookie Policy</a></li>
+              </ul>
             </footer>
         
             <script src="scripts/landing.js"></script>
+            <script src="scripts/service.js"> </script>
+
         </body>
     </html>        

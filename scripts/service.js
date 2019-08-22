@@ -6,7 +6,7 @@ for (var i = 0; i < btn.length; i++) {
   var thisBtn = btn[i];
   thisBtn.addEventListener("click", function(){
     var modal = document.getElementById(this.dataset.modal);
-    var span = document.getElementById(this.dataset.modal).getElementsByClassName("close")[0];
+    var span = document.getElementById(this.dataset.modal).getElementsByClassName("modal-content")[0];
     modal.style.opacity = "1";
     modal.classList.add('visible');
  	window.onclick = function(event) {
